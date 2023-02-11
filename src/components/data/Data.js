@@ -23,7 +23,7 @@ const Data = () => {
 
   return (
     <div >
-      <Button variant="contained" onClick={()=> setRecord(record+2)} >Add More...</Button>
+     
       <div className="data-block">
       <Grid container spacing={2}>
         {empData.map((e, i) => {
@@ -40,6 +40,7 @@ const Data = () => {
         })}
       </Grid>
       </div>
+      <Button variant="contained" onClick={()=> setRecord(record+4)} >Load More...</Button>
      
       
     </div>
