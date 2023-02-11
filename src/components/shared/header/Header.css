@@ -9,7 +9,10 @@ ul {
 li {
   float: left;
 }
-
+a {
+  color: white;
+  text-decoration: none;
+}
 li {
   display: block;
   color: white;
