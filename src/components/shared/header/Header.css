@@ -21,3 +21,10 @@ li {
   text-decoration: none;
 }
 
+
+.menu-style {
+  text-decoration: "underline";
+  color: red;
+  background-color: green;
+
+}
